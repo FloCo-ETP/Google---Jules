@@ -1,0 +1,25 @@
+{
+  "name": "Shared Space",
+  "short_name": "Shared Space",
+  "description": "Un espace partagé, installable sur iPhone et partageable par e-mail.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f7f3f8",
+  "theme_color": "#33263a",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "./apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
